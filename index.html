@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> 
+    <title>Educational Website</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="/"></a> 
+            <!-- logo -->
+            <div class="nav-links" id="navLinks">
+                <i class='fa fa-times' onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/">ABOUT</a></li>
+                    <li><a href="/">COURSES</a></li>
+                    <li><a href="/">BLOG</a></li>
+                    <li><a href="/">CONTACT</a></li>
+                </ul>                
+            </div>
+            <i class="fas fa-align-right" onclick="showMenu()"></i>
+        </nav>
+    
+    <div class="text-box">
+        <h1>Big title here</h1> 
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Ex facere officia suscipit? <br> dolore dolores sit rem alias explicabo, autem, aspernatur id nobis veritatis magnam ducimus dolorum pariatur, tenetur ex.</p>
+        <a href="/" class="hero-btn">Something here</a>     
+    </div>    
+    </section>
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque et temporibus debitis impedit voluptate minima similique corporis fugiat nulla accusantium saepe adipisci quod facere autem architecto beatae aliquid, reiciendis tenetur.</p>
+            </div>
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque et temporibus debitis impedit voluptate minima similique corporis fugiat nulla accusantium saepe adipisci quod facere autem architecto beatae aliquid, reiciendis tenetur.</p>
+            </div>
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque et temporibus debitis impedit voluptate minima similique corporis fugiat nulla accusantium saepe adipisci quod facere autem architecto beatae aliquid, reiciendis tenetur.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus">
+        <h1>our global campus</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus veniam modi, debitis, perferendis iure expedita eveniet aperiam minus magnam libero, ad vero! Vero eaque, quaerat officia voluptate aut accusamus ipsa.</p>
+        
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>            
+            <div class="campus-col">
+                <img src="images/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>            
+            <div class="campus-col">
+                <img src="images/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg" alt="">
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
