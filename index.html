@@ -1,94 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"> 
-    <title>Educational Website</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Fatec Lins - Prof. Antonio Seabra</title>
+  </head>
+  <body>
     <section class="header">
-        <nav>
-            <a href="index.html"><img src="/"></a> 
-            <!-- logo -->
-            <div class="nav-links" id="navLinks">
-                <i class='fa fa-times' onclick="hideMenu()"></i>
-                <ul>
-                    <li><a href="/">HOME</a></li>
-                    <li><a href="/">ABOUT</a></li>
-                    <li><a href="/">COURSES</a></li>
-                    <li><a href="/">BLOG</a></li>
-                    <li><a href="/">CONTACT</a></li>
-                </ul>                
-            </div>
-            <i class="fas fa-align-right" onclick="showMenu()"></i>
-        </nav>
-    
-    <div class="text-box">
-        <h1>Big title here</h1> 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Ex facere officia suscipit? <br> dolore dolores sit rem alias explicabo, autem, aspernatur id nobis veritatis magnam ducimus dolorum pariatur, tenetur ex.</p>
-        <a href="/" class="hero-btn">Something here</a>     
-    </div>    
+      <nav>
+        <a href="index.html"><img src="images/Group 5.png" /></a>
+        <!-- logo -->
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="/">A FATEC</a></li>
+            <li><a href="/">CURSOS</a></li>
+            <li><a href="/">ALUNOS</a></li>
+            <li><a href="/">NOTÍCIAS</a></li>
+            <li><a href="/">CONTATO</a></li>
+          </ul>
+        </div>
+        <i class="fas fa-align-right" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1 id="hacker" class="typewriter">Ensino superior de qualidade</h1>
+        <p class="about">
+          A FATEC de Lins foi criada no dia 01 de setembro de 2008 pelo Decreto
+          nº 53.370, pelo Governador José Serra, publicado no DOE de 02 de
+          setembro de 2008 <br />
+          e iniciou suas atividades acadêmicas em 15 de setembro de 2008 com o
+          Curso Superior de Graduação em Tecnologia em Informática <br />
+          com Ênfase em Banco de Dados e Redes de Computadores.
+        </p>
+        <a href="/" class="hero-btn">Ultimas Notícias</a>
+      </div>
     </section>
 
     <section class="course">
-        <h1>Courses we offer</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        
-        <div class="row">
-            <div class="course-col">
-                <h3>Intermediate</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque et temporibus debitis impedit voluptate minima similique corporis fugiat nulla accusantium saepe adipisci quod facere autem architecto beatae aliquid, reiciendis tenetur.</p>
-            </div>
-            <div class="course-col">
-                <h3>Intermediate</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque et temporibus debitis impedit voluptate minima similique corporis fugiat nulla accusantium saepe adipisci quod facere autem architecto beatae aliquid, reiciendis tenetur.</p>
-            </div>
-            <div class="course-col">
-                <h3>Intermediate</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque et temporibus debitis impedit voluptate minima similique corporis fugiat nulla accusantium saepe adipisci quod facere autem architecto beatae aliquid, reiciendis tenetur.</p>
-            </div>
+      <h1>Coursos Ofertados</h1>
+      <p>
+        Todos os nosso cursos são gratuitos necessitando apenas da realização do
+        vestibular.
+      </p>
+
+      <div class="row">
+        <div class="course-col">
+          <h3>Análise e Desenvolvimento de Sistemas</h3>
+          <p>
+            O Tecnólogo em Análise e Desenvolvimento de Sistemas analisa,
+            projeta, documenta, especifica, testa, implanta e mantém sistemas
+            computacionais de informação. Esse profissional trabalha, também,
+            com ferramentas computacionais, equipamentos de informática e
+            metodologia de projetos na produção de sistemas. Raciocínio lógico,
+            emprego de linguagens de programação e de metodologias de construção
+            de projetos, preocupação com a qualidade, usabilidade, robustez,
+            integridade e segurança de programas computacionais são fundamentais
+            à atuação desse profissional.
+          </p>
+          <p class="courses-info">
+            <i class="fas fa-moon"></i> Período noturno <br />
+            <i class="far fa-clock"></i> Duração 3 anos
+          </p>
         </div>
+        <div class="course-col">
+          <h3>Logística</h3>
+          <p>
+            O Tecnólogo em Logística é o profissional especializado em
+            armazenagem, distribuição e transporte. Atuando na área logística de
+            uma organização, planeja e coordena a movimentação física e de
+            informações sobre as operações multimodais e intermodais de
+            transporte, incluindo o gerenciamento de pessoas para proporcionar
+            fluxo otimizado ao longo da cadeia de suprimentos. Ele projeta e
+            gerencia redes de distribuição e unidades logísticas, estabelecendo
+            processos de compras, identificando fornecedores, negociando e
+            estabelecendo padrões de recebimento, armazenamento, movimentação e
+            embalagem de materiais.
+          </p>
+          <p class="courses-info">
+            <i class="fas fa-moon"></i> Período noturno <br />
+            <i class="far fa-clock"></i> Duração 3 anos
+          </p>
+        </div>
+        <div class="course-col">
+          <h3>Sistemas da Informação</h3>
+          <p>
+            O tecnólogo em Sistemas para Internet ocupa-se do desenvolvimento de
+            programas, de interfaces e aplicativos, do comércio e do marketing
+            eletrônicos, além de páginas e portais para internet e intranet.
+            Este profissional gerencia projetos de sistemas, inclusive com
+            acesso a banco de dados, desenvolvendo projetos de aplicações para a
+            rede mundial de computadores e integra mídias nas páginas da
+            internet. Atua com tecnologias emergentes como: computação móvel,
+            redes sem fio e sistemas distribuídos. Cuidar da implantação,
+            atualização, manutenção e segurança dos sistemas para internet
+            também são suas atribuições.
+          </p>
+          <p class="courses-info">
+            <i class="fas fa-sun"></i> Período matutino <br />
+            <i class="far fa-clock"></i> Duração 3 anos
+          </p>
+        </div>
+      </div>
     </section>
 
     <section class="campus">
-        <h1>our global campus</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus veniam modi, debitis, perferendis iure expedita eveniet aperiam minus magnam libero, ad vero! Vero eaque, quaerat officia voluptate aut accusamus ipsa.</p>
-        
-        <div class="row">
-            <div class="campus-col">
-                <img src="images/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg" alt="">
-                <div class="layer">
-                    <h3>LONDON</h3>
-                </div>
-            </div>            
-            <div class="campus-col">
-                <img src="images/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg" alt="">
-                <div class="layer">
-                    <h3>LONDON</h3>
-                </div>
-            </div>            
-            <div class="campus-col">
-                <img src="images/fusion-medical-animation-rnr8D3FNUNY-unsplash.jpg" alt="">
-                <div class="layer">
-                    <h3>LONDON</h3>
-                </div>
-            </div>            
+      <h1>Fatec's mais proxímas</h1>
+      <p>
+        As Faculdades de Tecnologia do Estado de São Paulo são instituições de
+        ensino superior públicas brasileiras, pertencentes ao Centro Estadual de
+        Educação Tecnológica Paula Souza, autarquia da Secretaria de
+        Desenvolvimento Econômico, Ciência e Tecnologia do estado de São Paulo.
+      </p>
+
+      <div class="row">
+        <div class="campus-col">
+          <img src="images/fatecMarilia.png" alt="" />
+          <div class="layer">
+            <h3>MARÍLIA</h3>
+          </div>
         </div>
+        <div class="campus-col">
+          <img src="images/fatecBauru.png" alt="" />
+          <div class="layer">
+            <h3>BAURU</h3>
+          </div>
+        </div>
+        <div class="campus-col">
+          <img src="images/fatecPompeia.png" alt="" />
+          <div class="layer">
+            <h3>POMPÉIA</h3>
+          </div>
+        </div>
+      </div>
     </section>
 
-<script>
-    var navLinks = document.getElementById("navLinks");
-    function showMenu(){
-        navLinks.style.right = "0";
-    }
-    function hideMenu(){
-        navLinks.style.right = "-200px";
-    }
-</script>
+    <section class="facilities">
+      <h1>Nossas Instalações</h1>
+      <p>
+        A Fatec Lins é a uma instituição de ensino superior pública, pertencente
+        ao Centro Estadual de Educação Tecnológica Paula Souza (CEETEPS),
+        autarquia da Secretaria de Desenvolvimento Econômico, Ciência e
+        Tecnologia (SDECTI) do estado de São Paulo.
+      </p>
+      <div class="row">
+        <div class="facilities-col">
+          <img src="images/biblioteca.jpg" alt="" />
+          <h3>Biblioteca</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            nobis nostrum temporibus ea, mollitia consequuntur, dolorem iure
+            eveniet velit ipsum aut, tempora quam? Maxime laudantium unde
+            commodi nam! Temporibus, eveniet!
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/download.jpg" alt="" />
+          <h3>Laboratórios</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            nobis nostrum temporibus ea, mollitia consequuntur, dolorem iure
+            eveniet velit ipsum aut, tempora quam? Maxime laudantium unde
+            commodi nam! Temporibus, eveniet!
+          </p>
+        </div>
+        <div class="facilities-col">
+          <img src="images/auditorio.jpg" alt="" />
+          <h3>Auditório</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+            nobis nostrum temporibus ea, mollitia consequuntur, dolorem iure
+            eveniet velit ipsum aut, tempora quam? Maxime laudantium unde
+            commodi nam! Temporibus, eveniet!
+          </p>
+        </div>
+      </div>
+    </section>
 
-</body>
+    <section class="testimonials">
+      <h1>O que dizem nossos Alunos</h1>
+      <p>
+        Veja as avaliações e comentários de alguns alunos que passaram por aqui.
+      </p>
+
+      <div class="row">
+        <div class="testimonial-col">
+          <img src="images/profilePic.png" alt="" />
+          <div>
+            <p>
+              Desde quando escrevi minha primeira linha de código com 14 anos,
+              sempre tive o impeto de buscar novos conhecimentos. Na Fatec Lins
+              não apenas encontrei um modo de aprimorar e aprender novas
+              tecnologias, mas também por meio dela, obtive conhecimentos sobre
+              a vida acadêmica, a rotina da pós-graduação e os caminhos que eu
+              poderia seguir por meio da carreira acadêmica. Agradeço à Fatec
+              Lins principalmente aos professores, estes que inspiraram-me a
+              escolher e seguir a docência como carreira.
+            </p>
+
+            <h3>Felipe Maciel</h3>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <span>Banco de Dados</span>
+          </div>
+        </div>
+        <div class="testimonial-col">
+          <img src="images/profilePic.png" alt="" />
+          <div>
+            <p>
+              &nbsp; &nbsp; &nbsp; &nbsp;Gestão da Qualidade é o curso que nos
+              faz abrir os olhos para entender a fundo como funciona não só o
+              controle de qualidade de processos e produtos, como também toda a
+              normalização por trás deles. Aprendi, inclusive, como aplicar
+              efetivamente ferramentas que possam solucionar problemas nesses
+              processos. Para quem se interesse por Melhoria Contínua, Garantia
+              da Qualidade e Gestão, esse é um curso divisor de águas. Com
+              certeza a melhor escolha que eu poderia ter feito!
+            </p>
+
+            <h3>Reinaldo Faduti</h3>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>Gestão da Qualidade</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h1>Corpo Docente</h1>
+      <a href="#" class="hero-btn">Veja mais</a>
+    </section>
+
+    <section class="footer">
+      <h4>Sobre a Fatec</h4>
+      <p>
+        A Fatec Lins conta com cinco cursos presenciais - Sistemas p/ Internet e
+        Gestão da Produção Industrial (Matutinos) e Análise e Desenvolvimento de
+        Sistemas, <br />
+        Gestão da Qualidade, e Logística (Noturnos) e um curso a distância
+        (Gestão Empresarial).
+      </p>
+      <div class="icons">
+        <a href="https://www.facebook.com/fateclins" target="blank">
+          <i class="fab fa-facebook"></i
+        ></a>
+        <a href="https://www.instagram.com/fateclins/" target="blank"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.youtube.com/c/FatecLinsProfessorAntonioSeabra"
+          target="blank"
+          ><i class="fab fa-youtube"></i
+        ></a>
+        <a href="https://www.linkedin.com/company/fatec-lins/" target="blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="http://www.fateclins.edu.br/web/" target="blank"
+          ><i class="fas fa-globe-americas"></i
+        ></a>
+      </div>
+      <p>
+        made by<a
+          class="icons"
+          href="https://bumboobee.github.io/PersonalWebsite/"
+          target="blank"
+          ><i class="fab fa-behance-square"></i
+        ></a>
+      </p>
+    </section>
+
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+
+      ScrollReveal().reveal(".course-col", { interval: 700 });
+      ScrollReveal().reveal(".campus-col", { interval: 200 });
+      ScrollReveal().reveal(".campus-col", { interval: 200 });
+      ScrollReveal().reveal(".facilities-col", { interval: 200 });
+      ScrollReveal().reveal(".testimonial-col", { interval: 200 });
+      ScrollReveal().reveal(".hero-btn", { delay: 900, origin: "bottom" });
+      ScrollReveal().reveal(".course", { delay: 500, origin: "bottom" });
+      ScrollReveal().reveal(".about", { delay: 700, origin: "right" });
+      ScrollReveal().reveal(".cta", { delay: 500, origin: "bottom" });
+      ScrollReveal().reveal(".footer", { delay: 900, origin: "bottom" });
+      ScrollReveal().reveal(".icons", { delay: 1200, origin: "top" });
+    </script>
+  </body>
 </html>
