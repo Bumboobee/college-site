@@ -27,6 +27,9 @@
   background-position: center;
   background-size: cover;
   position: relative;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 nav {
   display: flex;
@@ -91,7 +94,6 @@ nav img:hover {
   letter-spacing: 0.1em;
   animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
 }
-
 @keyframes typing {
   from {
     width: 0;
@@ -100,7 +102,6 @@ nav img:hover {
     width: 100%;
   }
 }
-
 @keyframes blink-caret {
   from,
   to {
@@ -155,6 +156,42 @@ nav .fa {
 nav .fas {
   display: none;
 }
+.course {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+p {
+  color: var(--blue-strong);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.course-col {
+  flex-basis: 31%;
+  background: var(--grey-color);
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  color: var(--primary-color);
+}
+h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.course-col:hover {
+  box-shadow: 0 0 30px 0 rgba(11, 59, 136, 0.9);
+}
 @media (max-width: 700px) {
   .text-box h1 {
     font-size: 20px;
@@ -189,56 +226,19 @@ nav .fas {
   .nav-links ul {
     padding: 30px;
   }
-}
-
-/* seção do curso */
-.course {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  padding-top: 100px;
-}
-h1 {
-  font-size: 36px;
-  font-weight: 600;
-}
-p {
-  color: var(--blue-strong);
-  font-size: 14px;
-  font-weight: 300;
-  line-height: 22px;
-  padding: 10px;
-}
-.row {
-  margin-top: 5%;
-  display: flex;
-  justify-content: space-between;
-}
-.course-col {
-  flex-basis: 31%;
-  background: var(--grey-color);
-  border-radius: 10px;
-  margin-bottom: 5%;
-  padding: 20px 12px;
-  box-sizing: border-box;
-  transition: 0.5s;
-  color: var(--primary-color);
-}
-h3 {
-  text-align: center;
-  font-weight: 600;
-  margin: 10px 0;
-}
-.course-col:hover {
-  box-shadow: 0 0 30px 0 rgba(11, 59, 136, 0.9);
-}
-@media (max-width: 700px) {
   .row {
     flex-direction: column;
   }
+  .testimonial-col img {
+    margin: 0 15px 0 0;
+  }
+  .cta h1 {
+    font-size: 24px;
+  }
+  .text-box h1 {
+    font-size: 17px;
+  }
 }
-
-/* campus */
 .campus {
   width: 80%;
   margin: auto;
@@ -272,7 +272,7 @@ h3 {
 .layer h3 {
   width: 100%;
   font-weight: 500;
-  color: var(--almost-white);
+  color: var(--primary-color);
   font-size: 26px;
   bottom: 0;
   left: 50%;
@@ -305,6 +305,7 @@ h3 {
   padding: 0;
 }
 .facilities-col h3 {
+  color: var(--grey-strong);
   margin-top: 16px;
   margin-bottom: 15px;
   text-align: left;
@@ -347,25 +348,26 @@ h3 {
 span {
   text-align: right;
   color: var(--grey-strong);
-  padding-left: 110px;
+}  
+h1 {
+  font-family: "Poppins";
+  font-weight: 1000;
+  color: var(--grey-color);
+  font-size: 36px;
+  font-weight: 600;
+  /* Courier+Prime&family=Inter:wght@300&family=Noto+Sans+KR&family=Noto+Sans+TC&family=Poppins */
 }
-
-@media (max-width: 700px) {
-  .testimonial-col img {
-    margin: 0 15px 0 0;
-  }
-  .cta h1 {
-    font-size: 24px;
-  }
-}
-
 .cta {
   margin: 100px auto;
   width: 80%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(images/IMG_20200213_153947151-min.jpg);
+    url(images/docentes.jpg);
   background-position: center;
   background-size: cover;
+  position: relative;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   border-radius: 10px;
   text-align: center;
   padding: 100px 0;
@@ -376,10 +378,12 @@ span {
   padding: 0;
 }
 .footer {
+  display: block;
   width: 100%;
   text-align: center;
 }
 .footer h4 {
+  color: var(--grey-strong);
   margin-bottom: 5px;
   margin-top: 20px;
   font-weight: 600;
@@ -396,3 +400,13 @@ span {
   transition: 0.2s;
   transform: scale(0.7) rotate(360deg);
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--almost-white);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--grey-color);
+}
+
