@@ -1,18 +1,16 @@
 ## [College site](https://bumboobee.github.io/Full-Spider-Verse/)
 
-This **[project](https://bumboobee.github.io/Full-Spider-Verse/)** is a full website-development, developed for personal purposes, wich include practice of resposive design, using only CSS to achieve it. 
+The **[project]()** of an educational website comes from the update of the **[website of my college]()**, **Fatec Lins**.
 
-With the realese of the **[Spider-man: No Way Home](https://www.rottentomatoes.com/m/spider_man_no_way_home)**, i wanted to make something special for this **[movie](https://www.rottentomatoes.com/m/spider_man_no_way_home)**... And **[here](https://bumboobee.github.io/Full-Spider-Verse/)** it is!! 
-
-I only used the basic of Web-development (**CSS** --- **JavaScript** --- **Html**).
+It's a simple **''landing page''** made using only **Html, CSS and Js.** and the **[ScrollReveal.js]()** *(a JavaScript library)*
 
 ## About
 
-In this **[website](https://bumboobee.github.io/Full-Spider-Verse/)**, you can see the work of two decades in marvel studios *(even before a was born)*, since the **[first Spider-man movie](https://en.wikipedia.org/wiki/Spider-Man_(2002_film))** back in the 2000's.
+**[Fatec of Lins]()** was created on **September 1, 2008** by Decree **nº 53.370**, by Governor **[José Serra]()**, published in the **[DOE]()** of **September 2, 2008**
+and began his academic activities on **September 15, 2008** with the Higher Degree in **Computer Technology**
+with Emphasis on **Database and Computer Networks**.
 
-As i'am a lover of Spider-man movies... I could not this movie pass by like nothing.
-
-❌**SPOILER**❌ *(There's the tree spirder-mans on it)* if you din't whatched, sorry! 😅 ❌**SPOILER**❌
+In all, **more than 900** students have already passed through **[there]()**, counting today with a faculty composed mostly of **masters and doctors**.
 
 ## Take a look🕸
 
