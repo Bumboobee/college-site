@@ -1,6 +1,6 @@
-## [College site](bumboobee.github.io/college-site/)
+## [College site](https://bumboobee.github.io/College-site//)
 
-The **[project](bumboobee.github.io/college-site/)** of an educational website comes from the update of the **[website of my college](http://www.fateclins.edu.br/web/)**, **Fatec Lins**.
+The **[project](https://bumboobee.github.io/College-site/)** of an educational website comes from the update of the **[website of my college](http://www.fateclins.edu.br/web/)**, **Fatec Lins**.
 
 It's a simple **''landing page''** made using only **Html, CSS and Js.** and the **[ScrollReveal.js](https://scrollrevealjs.org/)** *(a JavaScript library to easily animating elements as they enter/leave the viewport)*
 
@@ -10,16 +10,16 @@ It's a simple **''landing page''** made using only **Html, CSS and Js.** and the
 and began his academic activities on **September 15, 2008** with the Higher Degree in **Computer Technology**
 with Emphasis on **Database and Computer Networks**.
 
-In all, **more than 900** students have already passed through **[there](bumboobee.github.io/college-site/)**, counting today with a faculty composed mostly of **masters and doctors**.
+In all, **more than 900** students have already passed through **[there](https://bumboobee.github.io/College-site/)**, counting today with a faculty composed mostly of **masters and doctors**.
 
 ## Take a look🕸
 
- **The final result you can see [➡here⬅](bumboobee.github.io/college-site/)**
+ **The final result you can see [➡here⬅](https://bumboobee.github.io/College-site/)**
  
 <div align="center">
 
-[![professor-corrigindo](https://user-images.githubusercontent.com/94147847/156890451-c32cd2b7-821b-40fe-9a51-eedf7a3e0ebb.gif)](bumboobee.github.io/college-site/)
+[![professor-corrigindo](https://user-images.githubusercontent.com/94147847/156890451-c32cd2b7-821b-40fe-9a51-eedf7a3e0ebb.gif)](https://bumboobee.github.io/College-site/)
 
  > There is no elevator to success. You have to take the stairs.
- >> **Hilary Hinton "Zig" Ziglar**
+ >> **Hilary Hinton Zig Ziglar**
 <div \> 
