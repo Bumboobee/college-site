@@ -147,7 +147,7 @@ nav img:hover {
   border: 1px solid var(--strong-color);
   background: var(--strong-color);
   transition: 0.2s ease-in-out;
-  color: var(--grey-color);
+  color: var(--primary-color);
   font-weight: 700;
 }
 nav .fa {
